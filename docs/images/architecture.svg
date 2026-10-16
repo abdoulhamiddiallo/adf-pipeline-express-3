@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 850" width="1040" height="850" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">
+<rect x="0" y="0" width="1040" height="850" rx="18" fill="#ffffff"/>
+<text x="20" y="38" font-size="22" font-weight="800" fill="#134e4a">Azure Data Factory · Fenêtres bascule, API et jours fériés</text>
+<text x="20" y="62" font-size="13" fill="#5b6678">Déclencher, orchestrer, facturer, stocker : 3 fenêtres rattrapées seules, 106 sessions reçues, 99 facturées, 7 doublons écartés, 89,05 € de remise le 14 juillet</text>
+<g transform="translate(20,80)">
+
+<defs>
+ <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#107c10"/></marker>
+ <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#d83b01"/></marker>
+ <marker id="c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#00a3b4"/></marker>
+ <marker id="t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#0d9488"/></marker>
+ <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#0078d4"/></marker>
+ <marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#8a94a6"/></marker>
+ <marker id="v" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#7c3aed"/></marker>
+ <marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#14213d"/></marker>
+</defs>
+<rect x="0" y="0" width="30" height="150" rx="6" fill="#0d9488"/><text transform="translate(19,75.0) rotate(-90)" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff">DÉCLENCHE</text>
+<rect x="0" y="158" width="30" height="240" rx="6" fill="#7c3aed"/><text transform="translate(19,278.0) rotate(-90)" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff">ORCHESTRE</text>
+<rect x="0" y="406" width="30" height="222" rx="6" fill="#00a3b4"/><text transform="translate(19,517.0) rotate(-90)" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff">FACTURE</text>
+<rect x="0" y="636" width="30" height="112" rx="6" fill="#c19c00"/><text transform="translate(19,692.0) rotate(-90)" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff">STOCKE</text>
+<rect x="38" y="0" width="960" height="150" rx="9" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.6"/>
+<rect x="38" y="158" width="960" height="240" rx="9" fill="#f7f3ff" stroke="#7c3aed" stroke-width="1.6"/>
+<rect x="38" y="406" width="960" height="222" rx="9" fill="#effcfd" stroke="#00a3b4" stroke-width="1.6"/>
+<rect x="38" y="636" width="960" height="112" rx="9" fill="#fffbeb" stroke="#c19c00" stroke-width="1.6"/>
+<text x="52" y="20" font-size="13" font-weight="700" fill="#0d9488" text-anchor="start">TR_Window_Daily</text>
+<text x="180" y="20" font-size="9.8" font-weight="400" fill="#5b6678" text-anchor="start">déclencheur fenêtre bascule · 24 h · du 13 au 16 juillet 2026 (UTC) · concurrence 1 · dépendance sur lui-même</text>
+<rect x="52" y="34" width="150" height="72" rx="7" fill="#fff" stroke="#0d9488" stroke-width="2"/>
+<text x="127.0" y="49" text-anchor="middle" font-size="8.6" font-weight="700" fill="#0d9488" letter-spacing=".4">FENÊTRE BASCULE</text>
+<text x="127.0" y="65" text-anchor="middle" font-size="14" font-weight="700" fill="#14213d">rattrapage</text>
+<text x="127.0" y="80" text-anchor="middle" font-size="9.6" fill="#5b6678">3 fenêtres passées</text>
+<text x="127" y="96" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="middle">lancées au publish</text>
+<rect x="262" y="34" width="214" height="72" rx="7" fill="#fff" stroke="#0d9488" stroke-width="2"/>
+<text x="369.0" y="49" text-anchor="middle" font-size="8.6" font-weight="700" fill="#0d9488" letter-spacing=".4">LUNDI 13 JUILLET</text>
+<text x="369.0" y="65" text-anchor="middle" font-size="14" font-weight="700" fill="#14213d">jour ouvré</text>
+<text x="369.0" y="80" text-anchor="middle" font-size="9.6" fill="#5b6678">36 facturées · 0 doublon</text>
+<rect x="512" y="34" width="214" height="72" rx="7" fill="#fff4e5" stroke="#d83b01" stroke-width="2"/>
+<text x="619.0" y="49" text-anchor="middle" font-size="8.6" font-weight="700" fill="#d83b01" letter-spacing=".4">MARDI 14 JUILLET</text>
+<text x="619.0" y="65" text-anchor="middle" font-size="14" font-weight="700" fill="#14213d">jour férié</text>
+<text x="619.0" y="80" text-anchor="middle" font-size="9.6" fill="#5b6678">30 facturées · 4 doublons</text>
+<rect x="762" y="34" width="214" height="72" rx="7" fill="#fff" stroke="#0d9488" stroke-width="2"/>
+<text x="869.0" y="49" text-anchor="middle" font-size="8.6" font-weight="700" fill="#0d9488" letter-spacing=".4">MERCREDI 15 JUILLET</text>
+<text x="869.0" y="65" text-anchor="middle" font-size="14" font-weight="700" fill="#14213d">jour ouvré</text>
+<text x="869.0" y="80" text-anchor="middle" font-size="9.6" fill="#5b6678">33 facturées · 3 doublons</text>
+<polyline points="202,70 258,70" fill="none" stroke="#0d9488" stroke-width="2" marker-end="url(#t)"/>
+<polyline points="476,70 508,70" fill="none" stroke="#0d9488" stroke-width="2" marker-end="url(#t)"/>
+<text x="494.0" y="62" font-size="8.6" font-weight="700" fill="#0d9488" text-anchor="middle">veille</text>
+<polyline points="726,70 758,70" fill="none" stroke="#0d9488" stroke-width="2" marker-end="url(#t)"/>
+<text x="744.0" y="62" font-size="8.6" font-weight="700" fill="#0d9488" text-anchor="middle">veille</text>
+<text x="262" y="126" font-size="9.8" font-weight="400" fill="#14213d" text-anchor="start">windowStart = @trigger().outputs.windowStartTime : chaque fenêtre lance PL_Charge_Window avec son jour.</text>
+<text x="262" y="141" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="start">La fenêtre n attend le succès de la fenêtre n-1 : la veille est toujours facturée avant le jour.</text>
+<text x="52" y="178" font-size="13" font-weight="700" fill="#7c3aed" text-anchor="start">PL_Charge_Window</text>
+<text x="190" y="178" font-size="9.8" font-weight="400" fill="#5b6678" text-anchor="start">paramètres : windowStart, holidaysApiUrl · variables : day, yesterday, holidays, isHoliday, runSummary</text>
+<rect x="52" y="192" width="118" height="56" rx="7" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+<text x="111.0" y="207" text-anchor="middle" font-size="8.6" font-weight="700" fill="#7c3aed" letter-spacing=".4">SET VARIABLE × 2</text>
+<text x="111.0" y="223" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">SV_Day</text>
+<text x="111.0" y="238" text-anchor="middle" font-size="9.6" fill="#5b6678">SV_Yesterday</text>
+<rect x="196" y="192" width="140" height="56" rx="7" fill="#fff" stroke="#0078d4" stroke-width="2"/>
+<text x="266.0" y="207" text-anchor="middle" font-size="8.6" font-weight="700" fill="#0078d4" letter-spacing=".4">WEB · 2 RELANCES</text>
+<text x="266.0" y="223" text-anchor="middle" font-size="12" font-weight="700" fill="#14213d">WEB_Holidays</text>
+<text x="266.0" y="238" text-anchor="middle" font-size="9.6" fill="#5b6678">API jours fériés</text>
+<rect x="370" y="192" width="150" height="56" rx="7" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+<text x="445.0" y="207" text-anchor="middle" font-size="8.6" font-weight="700" fill="#7c3aed" letter-spacing=".4">SET VARIABLE</text>
+<text x="445.0" y="223" text-anchor="middle" font-size="12" font-weight="700" fill="#14213d">SV_HolidaysApi</text>
+<text x="445.0" y="238" text-anchor="middle" font-size="9.6" fill="#5b6678">holidays ← API</text>
+<rect x="370" y="282" width="150" height="56" rx="7" fill="#fff" stroke="#0078d4" stroke-width="2"/>
+<text x="445.0" y="297" text-anchor="middle" font-size="8.6" font-weight="700" fill="#0078d4" letter-spacing=".4">LOOKUP · SECOURS</text>
+<text x="445.0" y="313" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">LKP_HolidaysLocal</text>
+<text x="445.0" y="328" text-anchor="middle" font-size="9.6" fill="#5b6678">copie locale</text>
+<rect x="546" y="282" width="150" height="56" rx="7" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+<text x="621.0" y="297" text-anchor="middle" font-size="8.6" font-weight="700" fill="#7c3aed" letter-spacing=".4">SET VARIABLE</text>
+<text x="621.0" y="313" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">SV_HolidaysLocal</text>
+<text x="621.0" y="328" text-anchor="middle" font-size="9.6" fill="#5b6678">holidays ← local</text>
+<rect x="722" y="192" width="130" height="56" rx="7" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+<text x="787.0" y="207" text-anchor="middle" font-size="8.6" font-weight="700" fill="#7c3aed" letter-spacing=".4">SET VARIABLE</text>
+<text x="787.0" y="223" text-anchor="middle" font-size="12" font-weight="700" fill="#14213d">SV_IsHoliday</text>
+<text x="787.0" y="238" text-anchor="middle" font-size="9.6" fill="#5b6678">contains(jour)</text>
+<rect x="722" y="282" width="130" height="56" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="787.0" y="297" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">DATA FLOW</text>
+<text x="787.0" y="313" text-anchor="middle" font-size="12" font-weight="700" fill="#14213d">DF_Window</text>
+<text x="787.0" y="328" text-anchor="middle" font-size="9.6" fill="#5b6678">isHoliday, day</text>
+<rect x="872" y="282" width="110" height="56" rx="7" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+<text x="927.0" y="297" text-anchor="middle" font-size="8.6" font-weight="700" fill="#7c3aed" letter-spacing=".4">SET VARIABLE</text>
+<text x="927.0" y="313" text-anchor="middle" font-size="12" font-weight="700" fill="#14213d">SV_Summary</text>
+<text x="927.0" y="328" text-anchor="middle" font-size="9.6" fill="#5b6678">le bilan</text>
+<polyline points="170,220 192,220" fill="none" stroke="#107c10" stroke-width="2" marker-end="url(#g)"/>
+<polyline points="336,220 366,220" fill="none" stroke="#107c10" stroke-width="2" marker-end="url(#g)"/>
+<text x="338" y="212" font-size="8.6" font-weight="700" fill="#107c10" text-anchor="start">succès</text>
+<polyline points="266,248 266,310 366,310" fill="none" stroke="#d83b01" stroke-width="2" marker-end="url(#o)"/>
+<text x="272" y="300" font-size="8.6" font-weight="700" fill="#d83b01" text-anchor="start">échec</text>
+<polyline points="520,310 542,310" fill="none" stroke="#107c10" stroke-width="2" marker-end="url(#g)"/>
+<polyline points="520,214 718,214" fill="none" stroke="#0078d4" stroke-width="2" marker-end="url(#b)"/>
+<polyline points="520,226 718,226" fill="none" stroke="#8a94a6" stroke-width="2" marker-end="url(#s)" stroke-dasharray="4 3"/>
+<polyline points="696,302 706,302 706,236 718,236" fill="none" stroke="#0078d4" stroke-width="2" marker-end="url(#b)"/>
+<polyline points="696,318 712,318 712,244 718,244" fill="none" stroke="#8a94a6" stroke-width="2" marker-end="url(#s)" stroke-dasharray="4 3"/>
+<text x="560" y="206" font-size="8.6" font-weight="700" fill="#0078d4" text-anchor="start">achèvement</text>
+<text x="560" y="240" font-size="8.6" font-weight="700" fill="#8a94a6" text-anchor="start">ou ignorée</text>
+<polyline points="787,248 787,278" fill="none" stroke="#107c10" stroke-width="2" marker-end="url(#g)"/>
+<polyline points="852,310 868,310" fill="none" stroke="#107c10" stroke-width="2" marker-end="url(#g)"/>
+<text x="52" y="272" font-size="9.8" font-weight="700" fill="#14213d" text-anchor="start">try / catch / proceed :</text>
+<text x="52" y="287" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="start">l'API répond, ou la copie</text>
+<text x="52" y="301" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="start">locale prend le relais ;</text>
+<text x="52" y="315" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="start">le run reste vert.</text>
+<text x="52" y="366" font-size="9.8" font-weight="700" fill="#14213d" text-anchor="start">Le 14 juillet est dans la liste : isHoliday = true, le data flow facture toute la journée en heures creuses.</text>
+<text x="52" y="383" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="start">Si l'API tombe, WEB_Holidays passe au rouge, LKP_HolidaysLocal au vert, et le pipeline termine quand même en réussite.</text>
+<text x="52" y="426" font-size="13" font-weight="700" fill="#00a3b4" text-anchor="start">DF_Charge_Window</text>
+<text x="196" y="426" font-size="9.8" font-weight="400" fill="#5b6678" text-anchor="start">Mapping Data Flow · paramètres $day et $isHoliday · 15 transformations</text>
+<rect x="52" y="438" width="96" height="44" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="100.0" y="453" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">SOURCE CSV</text>
+<text x="100.0" y="469" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">srcYesterday</text>
+<rect x="166" y="438" width="90" height="44" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="211.0" y="453" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">DERIVED</text>
+<text x="211.0" y="469" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">dcYesterday</text>
+<rect x="392" y="438" width="96" height="44" rx="7" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+<text x="440.0" y="453" text-anchor="middle" font-size="8.6" font-weight="700" fill="#7c3aed" letter-spacing=".4">EXISTS · EXISTE</text>
+<text x="440.0" y="469" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">exDup</text>
+<rect x="508" y="438" width="120" height="44" rx="7" fill="#fff" stroke="#d83b01" stroke-width="2"/>
+<text x="568.0" y="453" text-anchor="middle" font-size="8.6" font-weight="700" fill="#d83b01" letter-spacing=".4">SINK · duplicates</text>
+<text x="568.0" y="469" text-anchor="middle" font-size="11" font-weight="700" fill="#14213d">snkDuplicates</text>
+<rect x="52" y="496" width="96" height="44" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="100.0" y="511" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">SOURCE JSON</text>
+<text x="100.0" y="527" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">srcToday</text>
+<rect x="166" y="496" width="90" height="44" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="211.0" y="511" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">DERIVED</text>
+<text x="211.0" y="527" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">dcToday</text>
+<rect x="276" y="496" width="96" height="44" rx="7" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+<text x="324.0" y="511" text-anchor="middle" font-size="8.6" font-weight="700" fill="#7c3aed" letter-spacing=".4">N'EXISTE PAS</text>
+<text x="324.0" y="527" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">exNew</text>
+<rect x="392" y="496" width="96" height="44" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="440.0" y="511" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">JOIN · INTERNE</text>
+<text x="440.0" y="527" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">joinTariff</text>
+<rect x="508" y="496" width="96" height="44" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="556.0" y="511" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">DERIVED</text>
+<text x="556.0" y="527" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">dcBilling</text>
+<rect x="624" y="496" width="120" height="44" rx="7" fill="#fff" stroke="#107c10" stroke-width="2"/>
+<text x="684.0" y="511" text-anchor="middle" font-size="8.6" font-weight="700" fill="#107c10" letter-spacing=".4">SINK · silver/jour</text>
+<text x="684.0" y="527" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">snkSilver</text>
+<rect x="52" y="554" width="96" height="44" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="100.0" y="569" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">SOURCE JSON</text>
+<text x="100.0" y="585" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">srcTariffs</text>
+<rect x="166" y="554" width="90" height="44" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="211.0" y="569" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">DERIVED</text>
+<text x="211.0" y="585" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">dcTariff</text>
+<rect x="276" y="554" width="96" height="44" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="324.0" y="569" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">SELECT</text>
+<text x="324.0" y="585" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">selTariff</text>
+<rect x="624" y="554" width="120" height="44" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="684.0" y="569" text-anchor="middle" font-size="8.6" font-weight="700" fill="#00a3b4" letter-spacing=".4">AGGREGATE</text>
+<text x="684.0" y="585" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">aggDay</text>
+<rect x="770" y="554" width="120" height="44" rx="7" fill="#fff" stroke="#107c10" stroke-width="2"/>
+<text x="830.0" y="569" text-anchor="middle" font-size="8.6" font-weight="700" fill="#107c10" letter-spacing=".4">SINK · gold/jour</text>
+<text x="830.0" y="585" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14213d">snkDaily</text>
+<polyline points="148,460 162,460" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="148,518 162,518" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="148,576 162,576" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="256,518 272,518" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="372,518 388,518" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="488,518 504,518" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="604,518 620,518" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="256,576 272,576" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="488,460 504,460" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="744,576 766,576" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="256,452 388,452" fill="none" stroke="#7c3aed" stroke-width="2" marker-end="url(#v)" stroke-dasharray="4 3"/>
+<polyline points="256,468 324,468 324,492" fill="none" stroke="#7c3aed" stroke-width="2" marker-end="url(#v)" stroke-dasharray="4 3"/>
+<polyline points="236,496 236,488 380,488 380,470 388,470" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<text x="270" y="484" font-size="8" font-weight="400" fill="#00a3b4" text-anchor="start"></text>
+<polyline points="372,576 430,576 430,544" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<polyline points="556,540 556,576 620,576" fill="none" stroke="#00a3b4" stroke-width="2" marker-end="url(#c)"/>
+<text x="550" y="564" font-size="8.6" font-weight="700" fill="#00a3b4" text-anchor="end">nouvelle branche</text>
+<text x="646" y="452" font-size="9.6" font-weight="700" fill="#14213d" text-anchor="start">Prix = énergie × tarif + frais de session.</text>
+<text x="646" y="466" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="start">Jour férié : tarif creux toute la journée,</text>
+<text x="646" y="479" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="start">et la remise est chiffrée par station.</text>
+<text x="762" y="516" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="start">Les sessions déjà</text>
+<text x="762" y="529" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="start">facturées la veille sont</text>
+<text x="762" y="542" font-size="9.6" font-weight="400" fill="#5b6678" text-anchor="start">écartées par leur identifiant.</text>
+<text x="52" y="655" font-size="13" font-weight="700" fill="#a07800" text-anchor="start">stchargeXXXX › conteneur guide3</text>
+<text x="278" y="655" font-size="9.8" font-weight="400" fill="#5b6678" text-anchor="start">un seul nouveau conteneur ; aucun nouveau dataset : DS_ADLS_Json et DS_ADLS_Csv sont réutilisés</text>
+<rect x="52" y="666" width="150" height="70" rx="7" fill="#fff" stroke="#0078d4" stroke-width="2"/>
+<text x="64" y="686" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">reference/</text>
+<text x="64" y="702" font-size="10" font-weight="400" fill="#5b6678" text-anchor="start">tariffs.json</text>
+<text x="64" y="718" font-size="9.4" font-weight="400" fill="#0078d4" text-anchor="start">holidays_2026.json</text>
+<rect x="211" y="666" width="150" height="70" rx="7" fill="#fff" stroke="#0078d4" stroke-width="2"/>
+<text x="223" y="686" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">raw/</text>
+<text x="223" y="702" font-size="10" font-weight="400" fill="#5b6678" text-anchor="start">sessions_jour.json</text>
+<text x="223" y="718" font-size="9.4" font-weight="400" fill="#0078d4" text-anchor="start">34 à 36 sessions par jour</text>
+<rect x="370" y="666" width="150" height="70" rx="7" fill="#fff" stroke="#00a3b4" stroke-width="2"/>
+<text x="382" y="686" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">silver/veille/</text>
+<text x="382" y="702" font-size="10" font-weight="400" fill="#5b6678" text-anchor="start">sessions.csv</text>
+<text x="382" y="718" font-size="9.4" font-weight="400" fill="#00a3b4" text-anchor="start">lu pour les doublons</text>
+<rect x="529" y="666" width="150" height="70" rx="7" fill="#fff" stroke="#107c10" stroke-width="2"/>
+<text x="541" y="686" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">silver/jour/</text>
+<text x="541" y="702" font-size="10" font-weight="400" fill="#5b6678" text-anchor="start">sessions.csv</text>
+<text x="541" y="718" font-size="9.4" font-weight="400" fill="#107c10" text-anchor="start">sessions facturées</text>
+<rect x="688" y="666" width="150" height="70" rx="7" fill="#fff" stroke="#107c10" stroke-width="2"/>
+<text x="700" y="686" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">gold/jour/</text>
+<text x="700" y="702" font-size="10" font-weight="400" fill="#5b6678" text-anchor="start">daily.csv</text>
+<text x="700" y="718" font-size="9.4" font-weight="400" fill="#107c10" text-anchor="start">3 stations</text>
+<rect x="847" y="666" width="150" height="70" rx="7" fill="#fff" stroke="#d83b01" stroke-width="2"/>
+<text x="859" y="686" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">duplicates/jour/</text>
+<text x="859" y="702" font-size="10" font-weight="400" fill="#5b6678" text-anchor="start">duplicates.csv</text>
+<text x="859" y="718" font-size="9.4" font-weight="400" fill="#d83b01" text-anchor="start">doublons écartés</text>
+
+</g>
+</svg>

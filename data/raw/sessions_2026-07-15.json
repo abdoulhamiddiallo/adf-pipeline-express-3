@@ -1,0 +1,254 @@
+[
+  {
+    "session_id": "MET-071410",
+    "station": "Metz Gare",
+    "charger_id": "MET-B5",
+    "start_time": "2026-07-14 22:59:00",
+    "energy_kwh": 31.79
+  },
+  {
+    "session_id": "MET-071501",
+    "station": "Metz Gare",
+    "charger_id": "MET-B1",
+    "start_time": "2026-07-15 08:27:00",
+    "energy_kwh": 25.08
+  },
+  {
+    "session_id": "MET-071502",
+    "station": "Metz Gare",
+    "charger_id": "MET-B2",
+    "start_time": "2026-07-15 09:09:00",
+    "energy_kwh": 54.03
+  },
+  {
+    "session_id": "MET-071503",
+    "station": "Metz Gare",
+    "charger_id": "MET-B4",
+    "start_time": "2026-07-15 10:29:00",
+    "energy_kwh": 10.5
+  },
+  {
+    "session_id": "MET-071504",
+    "station": "Metz Gare",
+    "charger_id": "MET-B1",
+    "start_time": "2026-07-15 13:46:00",
+    "energy_kwh": 52.8
+  },
+  {
+    "session_id": "MET-071505",
+    "station": "Metz Gare",
+    "charger_id": "MET-B6",
+    "start_time": "2026-07-15 14:56:00",
+    "energy_kwh": 17.98
+  },
+  {
+    "session_id": "MET-071506",
+    "station": "Metz Gare",
+    "charger_id": "MET-B6",
+    "start_time": "2026-07-15 15:41:00",
+    "energy_kwh": 17.65
+  },
+  {
+    "session_id": "MET-071507",
+    "station": "Metz Gare",
+    "charger_id": "MET-B6",
+    "start_time": "2026-07-15 16:53:00",
+    "energy_kwh": 48.67
+  },
+  {
+    "session_id": "MET-071508",
+    "station": "Metz Gare",
+    "charger_id": "MET-B5",
+    "start_time": "2026-07-15 18:59:00",
+    "energy_kwh": 38.8
+  },
+  {
+    "session_id": "MET-071509",
+    "station": "Metz Gare",
+    "charger_id": "MET-B4",
+    "start_time": "2026-07-15 20:56:00",
+    "energy_kwh": 10.88
+  },
+  {
+    "session_id": "MET-071510",
+    "station": "Metz Gare",
+    "charger_id": "MET-B5",
+    "start_time": "2026-07-15 21:17:00",
+    "energy_kwh": 45.95
+  },
+  {
+    "session_id": "MET-071511",
+    "station": "Metz Gare",
+    "charger_id": "MET-B1",
+    "start_time": "2026-07-15 22:30:00",
+    "energy_kwh": 11.24
+  },
+  {
+    "session_id": "NAN-071410",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B5",
+    "start_time": "2026-07-14 22:46:00",
+    "energy_kwh": 49.35
+  },
+  {
+    "session_id": "NAN-071501",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B3",
+    "start_time": "2026-07-15 06:51:00",
+    "energy_kwh": 16.1
+  },
+  {
+    "session_id": "NAN-071502",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B6",
+    "start_time": "2026-07-15 07:16:00",
+    "energy_kwh": 15.95
+  },
+  {
+    "session_id": "NAN-071503",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B2",
+    "start_time": "2026-07-15 08:55:00",
+    "energy_kwh": 15.64
+  },
+  {
+    "session_id": "NAN-071504",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B4",
+    "start_time": "2026-07-15 10:45:00",
+    "energy_kwh": 25.7
+  },
+  {
+    "session_id": "NAN-071505",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B4",
+    "start_time": "2026-07-15 11:15:00",
+    "energy_kwh": 35.42
+  },
+  {
+    "session_id": "NAN-071506",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B6",
+    "start_time": "2026-07-15 12:52:00",
+    "energy_kwh": 21.94
+  },
+  {
+    "session_id": "NAN-071507",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B6",
+    "start_time": "2026-07-15 15:45:00",
+    "energy_kwh": 52.52
+  },
+  {
+    "session_id": "NAN-071508",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B1",
+    "start_time": "2026-07-15 17:04:00",
+    "energy_kwh": 50.28
+  },
+  {
+    "session_id": "NAN-071509",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B6",
+    "start_time": "2026-07-15 18:31:00",
+    "energy_kwh": 18.43
+  },
+  {
+    "session_id": "NAN-071510",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B5",
+    "start_time": "2026-07-15 20:21:00",
+    "energy_kwh": 10.44
+  },
+  {
+    "session_id": "NAN-071511",
+    "station": "Nancy Stanislas",
+    "charger_id": "NAN-B4",
+    "start_time": "2026-07-15 22:37:00",
+    "energy_kwh": 21.75
+  },
+  {
+    "session_id": "THI-071410",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B6",
+    "start_time": "2026-07-14 22:48:00",
+    "energy_kwh": 49.35
+  },
+  {
+    "session_id": "THI-071501",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B5",
+    "start_time": "2026-07-15 06:10:00",
+    "energy_kwh": 11.9
+  },
+  {
+    "session_id": "THI-071502",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B2",
+    "start_time": "2026-07-15 07:47:00",
+    "energy_kwh": 47.92
+  },
+  {
+    "session_id": "THI-071503",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B5",
+    "start_time": "2026-07-15 10:15:00",
+    "energy_kwh": 14.51
+  },
+  {
+    "session_id": "THI-071504",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B1",
+    "start_time": "2026-07-15 11:01:00",
+    "energy_kwh": 23.32
+  },
+  {
+    "session_id": "THI-071505",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B6",
+    "start_time": "2026-07-15 12:23:00",
+    "energy_kwh": 12.95
+  },
+  {
+    "session_id": "THI-071506",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B2",
+    "start_time": "2026-07-15 16:25:00",
+    "energy_kwh": 40.06
+  },
+  {
+    "session_id": "THI-071507",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B6",
+    "start_time": "2026-07-15 17:43:00",
+    "energy_kwh": 21.74
+  },
+  {
+    "session_id": "THI-071508",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B5",
+    "start_time": "2026-07-15 18:54:00",
+    "energy_kwh": 33.49
+  },
+  {
+    "session_id": "THI-071509",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B4",
+    "start_time": "2026-07-15 19:42:00",
+    "energy_kwh": 40.7
+  },
+  {
+    "session_id": "THI-071510",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B1",
+    "start_time": "2026-07-15 20:22:00",
+    "energy_kwh": 18.13
+  },
+  {
+    "session_id": "THI-071511",
+    "station": "Thionville Centre",
+    "charger_id": "THI-B3",
+    "start_time": "2026-07-15 22:40:00",
+    "energy_kwh": 11.04
+  }
+]
